@@ -1,1 +1,4 @@
 GET /                           controllers.HomeController.index()
+
+# Login
+POST /login                     controllers.LoginController.login()
