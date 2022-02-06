@@ -10,7 +10,7 @@ class LoginControllerSpec extends BaseIntergrationSpec {
   "Login Controller" should "allow users with valid creds to login" in {
     // GIVEN
     val url   = "/login"
-    val creds = """{ "uname": "Akhil", "pass": "Password123" }"""
+    val creds = """{ "uname": "Akhil", "pass": "Pass@123" }"""
 
     // WHEN
     val res = Await.result(
